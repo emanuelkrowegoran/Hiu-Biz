@@ -1,0 +1,458 @@
+<!-- meta tags and other links -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament Mobile - Hiu.Biz</title>
+    <!-- site favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" sizes="16x16">
+    <!-- bootstrap 4  -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- fontawesome 5  -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- line-awesome webfont -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <!-- custom select css -->
+    <link rel="stylesheet" href="assets/css/vendor/nice-select.css">
+    <!-- animate css  -->
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+    <!-- lightcase css -->
+    <link rel="stylesheet" href="assets/css/vendor/lightcase.css">
+    <!-- slick slider css -->
+    <link rel="stylesheet" href="assets/css/vendor/slick.css">
+    <!-- style main css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <link rel="stylesheet" href="assets/man.css">
+</head>
+
+<body>
+
+    <!-- prealoader start  -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+    <!-- prealoader end -->
+
+    <!--scroll-to-top start-->
+    <div class="scroll-to-top">
+        <span class="scroll-icon">
+            <i class="icon">
+                <img src="assets/images/icon/panah.png">
+            </i>
+        </span>
+    </div>
+    <!--scroll-to-top end-->
+
+    <!-- page-wrapper start -->
+    <div class="page-wrapper">
+        <!-- login modal -->
+        <div class="modal fade" id="loginModal" tabindex="1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content bg-transparent">
+                    <div class="modal-body">
+                        <div class="account-area">
+                            <h3 class="title mb-4">Selamat Datang di Hiu.Biz</h3>
+                            <form class="account-form">
+                                <div class="form-group">
+                                    <label>Your Email </label>
+                                    <input type="email" name="login_email" placeholder="Enter Your Email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Password </label>
+                                    <input type="password" name="login_email" placeholder="Enter Your Password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <p>Forgot your password? <a href="#0">recover password</a></p>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="cmn-btn">Sign IN</button>
+                                </div>
+                            </form>
+                            <div class="or-devider mt-5"><span>OR</span></div>
+                            <div class="text-center mt-4">
+                                <p>Sign up with your work email</p>
+                                <a href="#0" class="google-btn mt-4 mb-3"><img src="assets/images/icon/google.png" alt="image">Sign Up with Google</a>
+                                <p>Don't have an account? <a href="#0" data-dismiss="modal" data-toggle="modal" data-target="#signupModal">Sign up here</a></p>
+                            </div>
+                        </div>
+                        <!-- account-area end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sign Up modal -->
+        <div class="modal fade" id="signupModal" tabindex="1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content bg-transparent">
+                    <div class="modal-body">
+                        <div class="account-area">
+                            <h3 class="title mb-4">Let's get started</h3>
+                            <div class="text-center mt-4">
+                                <a href="#0" class="google-btn mt-4 mb-3"><img src="assets/images/icon/google.png" alt="image">Sign Up with Google</a>
+                            </div>
+                            <div class="or-devider mt-4"><span>OR</span></div>
+                            <p class="text-center mt-2 mb-4">Sign up with your work email</p>
+                            <form class="account-form">
+                                <div class="form-group">
+                                    <label>Your Email </label>
+                                    <input type="email" name="login_email" placeholder="Enter Your Email" class="form-control">
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="cmn-btn">Try It Now</button>
+                                </div>
+                            </form>
+                            <p class="text-center mt-3">Already have an account?<a href="#0" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">Sign In</a></p>
+                        </div>
+                        <!-- account-area end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- header-section start  -->
+        <header class="header">
+            <div class="header__bottom">
+                <div class="container">
+                    <nav class="navbar navbar-expand-xl align-items-center">
+                        <a class="site-logo site-title" href="index.html"><img src="assets/images/BattleArena.png" style="width: 220px;" alt="site-logo"><span class="logo-icon"><i class="flaticon-fire"></i></span></a>
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="menu-toggle"></span>
+        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav main-menu ml-auto">
+                                <li class="menu_has_children">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li><a href="all-games.html">Games</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="faq.html">faq</a></li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+                            <div class="nav-right">
+                                <a href="#0" data-toggle="modal" data-target="#loginModal">join now</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- header__bottom end -->
+        </header>
+        <!-- header-section end  -->
+
+
+        <!-- inner-hero start -->
+        <section class="inner-hero bg_img" data-background="assets/images/bg/inner-hero.jpg">
+            <div class="shape position-absolute"><img src="assets/images/elements/inner-hero/shape.png" alt="image"></div>
+
+            <div class="el-1 position-absolute"><img src="assets/images/elements/inner-hero/el-1.png" alt="image"></div>
+            <div class="el-2 position-absolute"><img src="assets/images/elements/inner-hero/el-2.png" alt="image"></div>
+            <div class="el-3 position-absolute"><img src="assets/images/elements/inner-hero/el-3.png" alt="image"></div>
+            <div class="el-5 position-absolute"><img src="assets/images/elements/inner-hero/el-5.png" alt="image"></div>
+            <div class="el-6 position-absolute"><img src="assets/images/elements/inner-hero/el-6.png" alt="image"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="page-title">Turnamen Mobile Legends - #DIRUMAHAJA SEASON 9</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- inner-hero end -->
+
+        <!-- featured game section start -->
+        <section class="pt-120 pb-120 bg_img" data-background="assets/images/bg/featured.png">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="section-header style--two">
+                            <span class="section-sub-title">Detail Turnamen</span>
+                        </div>
+                        <p>Match Day : 12 - 14 Maret 2021 </br>
+                            Pendaftaran ditutup tanggal 11 Maret 2021, Jam 21.00 WIB </br>
+                            TM tanggal 11 Maret 2021, Jam 22.00 WIB</br>
+                            Biaya pendaftaran IDR 20.000,- / Slot</br>
+                            Venue : Online</br>
+                            Open 64 Slot</br>
+                            Multi Slot On</br>
+                            Skin Bebas</br>
+                            Tier/Rank : Under Mythic Glory 100 Point (All Season)</br>
+                            Custom Draft Pick Mode</br>
+                            Single Elimination BO1 | Semi Finals - Grand Final BO3</br>
+                            Live Streaming NimoTV "zorooostore"</p>
+                        </br>
+                        <div class="section-header style--two">
+                            <span class="section-sub-title">Hadiah </span>
+                        </div>
+                        <p>Juara 1 : Rp. 600.000,- + E-Certificate + Team Profile di website InfoTourney </br>
+                            Juara 2 : Rp. 350.000,- + E-Certificate + Team Profile di website InfoTourney</br>
+                            Juara 3 : Rp. 200.000,- + E-Certificate + Team Profile di website InfoTourney</br>
+                            Juara 4 : Rp. 50.000,- + E-Certificate + Team Profile di website InfoTourney</br>
+                            *Hadiah bisa berubah sesuai dengan jumlah peserta</p>
+                        </br>
+                        <div class="section-header style--two">
+                            <span class="section-sub-title">Pendaftaran </span>
+                        </div>
+                        <p>Pembayaran bisa melalui transfer ke :</br>
+                            1. BCA : 2390534755 a/n Yonatan Kuncorojati</br>
+                            2. Gopay/Dana/OVO : 081391040206 a/n Yonatan Kuncorojati</br>
+                            3. Pulsa : 081391040206 (IDR 25.000,- / Slot)</br>
+                            *Bukti transfer harap dikirimkan ke Contact Person yang telah tersedia</p>
+                        </br>
+                        <div class="section-header style--two">
+                            <span class="section-sub-title">Contact Person </span>
+                        </div>
+                        <p>WA : 24124124124 </br>
+                            WA : 12412412412 </br>
+                            Instagram : @efsdgsdgs </br>
+                            Instagram : @sgdgssgsdg</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-game-thumb text-center">
+                            <img src="assets/images/moba-tournament/turnamen-ml-mlbb-mole-mobile-legends-maret-2021-dirumahaja-season-9-poster.jpg" alt="image">
+                            <p class="mt-3 mb-3">Turnamen Mobile Legends - #DIRUMAHAJA SEASON 9 dimulai tanggal 12 Maret 2021 Pendaftaran akan ditutup tanggal 11 Maret 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- featured game section end -->
+
+        <!-- game section start -->
+        <section class="pt-120 pb-120 position-relative overflow-hidden">
+            <div class="game-el-1" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="vertical"><img src="assets/images/elements/game-el-1.png" alt="image"></div>
+            <div class="game-el-2" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="assets/images/elements/game-el-2.png" alt="image"></div>
+            <div class="game-el-3" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="assets/images/elements/game-el-3.png" alt="image"></div>
+            <div class="game-el-4" data-paroller-factor="0.25" data-paroller-type="foreground" data-paroller-direction="vertical"><img src="assets/images/elements/game-el-4.png" alt="image"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="section-header text-center has--bg">
+                            <div class="header-image"><img src="assets/images/elements/header-el.png" alt="image"></div>
+                            <h2 class="section-title">Our Games</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- row end -->
+                <div class="row mb-none-40">
+                    <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
+                        <div class="game-card">
+                            <div class="game-card__thumb">
+                                <img src="assets/images/bg-game/mobile/ml.png" alt="image">
+                            </div>
+                            <div class="game-card__content">
+                                <div class="game-card__details">
+                                    <div class="game-card__info">
+                                        <div class="thumb"><img src="assets/images/bg-game/mobile/icon-logo/icon-ml.png" alt="image"></div>
+                                        <div class="content">
+                                            <h3 class="game-card__title"><a href="tournament.html">MOBILE LEGEND</a></h3>
+                                            <p>Clash On Monday V2 dimulai tanggal 25 - 29 Feb 2021</br> <a href="tournament.html">Detail Tournament</a></p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="game-card__action">
+                                    <p class="mb-2">Download now at</p>
+                                    <a href="tournament.html"><img src="assets/images/elements/apple-btn.png" alt="image"></a>
+                                    <a href="tournament.html"><img src="assets/images/elements/google-btn.png" alt="image"></a>
+                                </div>
+                            </div>
+                            <!-- game-card__content end -->
+                        </div>
+                        <!-- game-card end -->
+                    </div>
+                    <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s">
+                        <div class="game-card">
+                            <div class="game-card__thumb">
+                                <img src="assets/images/bg-game/mobile/ff.png" alt="image">
+                            </div>
+                            <div class="game-card__content">
+                                <div class="game-card__details">
+                                    <div class="game-card__info">
+                                        <div class="thumb"><img src="assets/images/bg-game/mobile/icon-logo/icon-ff.png" alt="image"></div>
+                                        <div class="content">
+                                            <h3 class="game-card__title"><a href="tournament.html">Free Fire</a></h3>
+                                            <p>Clash On Monday V2 dimulai tanggal 25 - 29 Feb 2021</br> <a href="tournament.html">Detail Tournament</a></p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="game-card__action">
+                                    <p class="mb-2">Download now at</p>
+                                    <a href="tournament.html"><img src="assets/images/elements/apple-btn.png" alt="image"></a>
+                                    <a href="tournament.html"><img src="assets/images/elements/google-btn.png" alt="image"></a>
+                                </div>
+                            </div>
+                            <!-- game-card__content end -->
+                        </div>
+                        <!-- game-card end -->
+                    </div>
+                    <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
+                        <div class="game-card">
+                            <div class="game-card__thumb">
+                                <img src="assets/images/bg-game/mobile/cod.png" alt="image">
+                            </div>
+                            <div class="game-card__content">
+                                <div class="game-card__details">
+                                    <div class="game-card__info">
+                                        <div class="thumb"><img src="assets/images/bg-game/mobile/icon-logo/icon-cod.png" alt="image"></div>
+                                        <div class="content">
+                                            <h3 class="game-card__title"><a href="tournament.html">CALL OF DUTY MOBILE</a></h3>
+                                            <p>Clash On Monday V2 dimulai tanggal 25 - 29 Feb 2021</br> <a href="tournament.html">Detail Tournament</a></p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="game-card__action">
+                                    <p class="mb-2">Download now at</p>
+                                    <a href="tournament.html"><img src="assets/images/elements/apple-btn.png" alt="image"></a>
+                                    <a href="tournament.html"><img src="assets/images/elements/google-btn.png" alt="image"></a>
+                                </div>
+                            </div>
+                            <!-- game-card__content end -->
+                        </div>
+                        <!-- game-card end -->
+                    </div>
+                    <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s">
+                        <div class="game-card">
+                            <div class="game-card__thumb">
+                                <img src="assets/images/bg-game/mobile/pb.png" alt="image">
+                            </div>
+                            <div class="game-card__content">
+                                <div class="game-card__details">
+                                    <div class="game-card__info">
+                                        <div class="thumb"><img src="assets/images/bg-game/mobile/icon-logo/icon-pubg.png" alt="image"></div>
+                                        <div class="content">
+                                            <h3 class="game-card__title"><a href="tournament.html">PlayerUnknown's Battlegrounds</a></h3>
+                                            <p>Clash On Monday V2 dimulai tanggal 25 - 29 Feb 2021</br> <a href="#0">Detail Tournament</a></p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="game-card__action">
+                                    <p class="mb-2">Download now at</p>
+                                    <a href="#0"><img src="assets/images/elements/apple-btn.png" alt="image"></a>
+                                    <a href="#0"><img src="assets/images/elements/google-btn.png" alt="image"></a>
+                                </div>
+                            </div>
+                            <!-- game-card__content end -->
+                        </div>
+
+                        <!-- game-card end -->
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- game section end -->
+
+
+        <!-- footer section start  -->
+        <footer class="footer-section bg_img" data-background="assets/images/elements/footer.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="subscribe-area">
+                            <div class="obj"><img src="assets/images/elements/subscribe.png" alt="image"></div>
+                            <div class="subscribe-content">
+                                <h2 class="title">Find Out About New Games!</h2>
+                                <p>Subscribe to get updated on future game releases</p>
+                                <p></p>
+                                <form class="subscribe-form">
+                                    <input type="email" name="subscribe_email" id="subscribe_email" placeholder="Enter Your Email">
+                                    <button type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer-top mb-none-50">
+                    <div class="col-lg-3 col-sm-6 mb-50">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget__title">ABOUT</h3>
+                            <ul class="short-links">
+                                <li><a href="#0">About Us</a></li>
+                                <li><a href="#0">Contact Us</a></li>
+                                <li><a href="#0">Customer Reviews</a></li>
+                                <li><a href="#0">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <!-- footer-widget end -->
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-50">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget__title">MY ACCOUNT</h3>
+                            <ul class="short-links">
+                                <li><a href="#0">Manage Your Account</a></li>
+                                <li><a href="#0">Account Varification</a></li>
+                                <li><a href="#0">Safety & Security</a></li>
+                            </ul>
+                        </div>
+                        <!-- footer-widget end -->
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-50">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget__title">HELP CENTER</h3>
+                            <ul class="short-links">
+                                <li><a href="#0">Help centre</a></li>
+                                <li><a href="#0">FAQ</a></li>
+                                <li><a href="#0">Quick Start Guide</a></li>
+                                <li><a href="#0">Tutorials</a></li>
+                            </ul>
+                        </div>
+                        <!-- footer-widget end -->
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-50">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget__title">LEGAL INFO</h3>
+                            <ul class="short-links">
+                                <li><a href="#0">Security</a></li>
+                                <li><a href="#0">Terms of Service</a></li>
+                                <li><a href="#0">Become Affiliate</a></li>
+                                <li><a href="#0">Complaints Policy</a></li>
+                            </ul>
+                        </div>
+                        <!-- footer-widget end -->
+                    </div>
+                </div>
+                <!-- footer-top end -->
+                <div class="row footer-bottom align-items-center">
+                    <div class="col-lg-7 col-md-6 text-md-left text-center">
+                        <p class="copy-right-text">Copyright © 2021.All Rights Reserved By <a href="#0">HIU.BIZ</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer section end -->
+    </div>
+    <!-- page-wrapper end -->
+    <!-- jQuery library -->
+    <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <!-- custom select js -->
+    <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
+    <!-- lightcase js -->
+    <script src="assets/js/vendor/lightcase.js"></script>
+    <!-- wow js -->
+    <script src="assets/js/vendor/wow.min.js"></script>
+    <!-- slick slider js -->
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/TweenMax.min.js"></script>
+    <!-- contact js -->
+    <script src="assets/js/contact.js"></script>
+    <script src="http://rexbd.net/html/sporcia/demo/assets/js/vendor/jquery.paroller.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
